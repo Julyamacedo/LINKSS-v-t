@@ -1,37 +1,91 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>AULA DE LINK</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header>
+            <section id="logo">
+                <img src="./assets/img/logo.png" />
+                <section id="logo-titulo">
+                    <h1 id="titulo"><strong>Victoria´s Secret</strong></h1>
+                    <p>"Beleza, confiança e estilo"</p>
+                </section>
+            </section>
+            <section id="item">
+                <a class="itens" href="./index.html">Início</a>
+                <a class="itens" href="./pages/produtos.html">Produtos</a>
+                <a class="itens" href="./pages/curiosidades.html">Curiosidades</a>
+                <a href="#destaques">Destaques</a>
+            </section>
+        </header>
 
-<head>
+        <main>
+            <section id="destaques">
+                <article>
+                    <span class="textinho">SOBRE NOSSA MARCA</span>
+                    <h2>Victoria´s Secret</h2>
+                    <p>
+                        Quando a beleza vira espetáculo e cada detalhe revela confiança, você está
+                        entrando no mundo de Victoria’s Secret.
+                    </p>
 
-    <meta charset="UTF-8">
-
-    <title>Victoria's Secret</title>
-
-    <link rel="stylesheet" href="css/style.css">
-
-</head>
-
-<body>
-
-<header>
-
-    <h1>Victoria's Secret</h1>
-
-    <p>Beleza, confiança e estilo.</p>
-
-    <a href="index.html">Início</a>
-
-    <a href="pages/produtos.html">Produtos</a>
-
-    <a href="pages/curiosidade.html">Curiosidades</a>
-
-</header>
-
-
-<main>
-
-<section class="inicio">
-
-    <h2>Bem-vinda ao universo Victoria's Secret</h2>
-
+                    <article id="acesso">
+                        <a href="pages/produtos.html">Conheça nossos produtos</a>
+                        <a href="pages/curiosidades.html">Explorar curiosidades</a>
+                    </article>
+                </article>
+                <img src="./assets/img/meninas.png" />
+            </section>
+            <section id="importancia">
+                <article id="importancia-texto">
+                    <span class="textinho">O que faz Victoria’s Secret ser tão especial?</span>
+                    <h2>Uma marca que marcou a moda</h2>
+                </article>
+                <section id="motivos">
+                    <article class="motivos1">
+                        <h3>Glamour e beleza</h3>
+                        <p>
+                            A Victoria’s Secret ficou conhecida por seus desfiles, peças
+                            sofisticadas e uma identidade visual marcante.
+                        </p>
+                    </article>
+                    <article class="motivos1">
+                        <h3>Modelos icônicas</h3>
+                        <p>
+                            Ao longo dos anos, diversas modelos se tornaram grandes nomes da moda
+                            através dos famosos desfiles da marca.
+                        </p>
+                    </article>
+                    <article class="motivos1">
+                        <h3>Universo da marca</h3>
+                        <p>
+                            A Victoria’s Secret reúne moda, beleza, lingerie e grandes produções,
+                            criando uma experiência que vai além das peças.
+                        </p>
+                    </article>
+                </section>
+            </section>
+            <section id="caminho-produtos">
+                <p class="textinho"></p>
+                <h3>Pronto para conhecer as personalidades que marcaram a Victoria’s Secret?</h3>
+                <a href="pages/produtos.html">Veja os produtos-></a>
+            </section>
+        </main>
+        <hr />
+        <footer id="rodape">
+            <p>Minisite desenvolvido para a prática de HTML e CSS</p>
+            <article id="Guias">
+                <a href="assets/files/hungergames.png" download>Baixar informação</a>
+                <a
+                    href="https://www.instagram.com/victoriassecret/"
+                    target="_blank"
+                    rel="noreferrer">
+                    Visitar a rede social
+                </a>
+            </article>
+        </footer>
+    </body>
+</html>

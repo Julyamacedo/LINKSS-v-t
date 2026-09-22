@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: rgb(7, 7, 7);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    font-size: 17px;
+    text-decoration: none;
+    background-image: url('../assets/img/fundo\ \(2\).png');
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #020100ee;
+    font-family:'Times New Roman', Times, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+#item {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+#Alem {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(209, 164, 196, 0.733);
+    border-radius: 12px;
+}
+#Alem h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #941e71ee;
+    font-family:'Times New Roman', Times, sans-serif;
+}
+
+#curiosidades{
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(252, 225, 229);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+
+}
+#curiosidades img{
+    height: 100%;
+    width: 80%;
+    border-radius: 12px;
+
+}
+#VS{
+    gap:10px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+#VS h3{
+     font-size: 20px;
+    font-weight: 700;
+    color:#050505ee;
+    font-family:'Times New Roman', Times, sans-serif;
+}
+#VS h2{
+   font-size: 30px;
+    font-weight: 700;
+    font-family:'Times New Roman', Times, sans-serif;
+    color :rgba(165, 42, 124, 0.859);
+}
+.fatos{
+    background-color:rgb(250, 201, 225);
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+    margin-bottom:20px;
+
+}
+.contexto{
+  margin: 5px;
+  padding: 5px;
+}
+.fatos p{
+    padding: 5px;
+    margin: 5px;
+}
+
+
+#rodape {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#Guias{
+    display: flex;
+    justify-content: space-between;
+    gap:10px
+}
+
+.textinho{
+    color: #b93398ee;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+a {
+  color: #ffffff;
+  background-color:#000000;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+a:hover {
+  color: #ffffff;
+  background-color: #eea6e2;
+}
