@@ -102,3 +102,15 @@ footer {
     gap: 20px;
     font-family: 'Times New Roman', Times, sans-serif;
 }
+
+a {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+a:hover {
+    color: #ffffff;
+    background-color: #eea6e2;
+}
